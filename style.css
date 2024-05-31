@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: #272d38;
+  font-family: Inter;
+}
+
+section {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+a,
+button {
+  all: unset;
+  cursor: pointer;
+}
+
+button {
+  background-color: #8eadd5;
+  color: white;
+  padding: 12px 28px;
+  border-radius: 8px;
+}
+
+/* Section Properties */
+
+section#hero {
+  height: auto;
+  padding: 48px;
+}
+section#hero > nav > h1 {
+  padding: 42px 0;
+  color: #272d38;
+  text-transform: uppercase;
+}
+
+section#hero > nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+section#hero > nav > div {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  gap: 16px;
+  color: #272d38;
+}
+
+section#hero > div {
+  height: 400px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 60px;
+}
+
+section#hero > div > div {
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  gap: 24px;
+}
+
+section#hero > div > img {
+  height: 140%;
+}
+
+section#hero > div > div > h2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  gap: 60px;
+  line-height: 1;
+}
+
+section#hero > div > div > p {
+  font-size: 16px;
+  color: #272d38;
+  line-height: 1.5;
+}
